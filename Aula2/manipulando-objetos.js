@@ -17,4 +17,6 @@ pessoa.animalEstimacao.push({
     vacinado: true
 });
 
+delete pessoa.animalEstimacao[0]
+
 console.log(pessoa)
