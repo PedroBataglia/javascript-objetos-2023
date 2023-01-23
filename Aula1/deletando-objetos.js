@@ -11,3 +11,4 @@ const objPersonagem = {
 delete objPersonagem.aliado;
 
 console.log(objPersonagem);
+console.log(objPersonagem.aliado);
