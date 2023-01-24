@@ -1,0 +1,25 @@
+const paciente = {
+    nome: "James T.",
+    idade: 34,
+    email: "Jt@firma.com",
+    funcao: "comandante",
+    peso: 80.1,
+    altura: 1.80,
+    calcularIMC: function(){
+        return (this.peso/(math.pow(this.altura,2)))
+    },
+    nomeCompleto:function() {
+        console.log(this.nome);
+    },
+};
+
+let dados = "";
+for (let info in paciente) {
+    if ( typeof paciente[info] === "object" || typeof paciente[info] === "function") {
+        continue
+    } else {
+     dados += `${info} => ${paciente[info]}
+        `};
+};
+
+console.log(dados);
