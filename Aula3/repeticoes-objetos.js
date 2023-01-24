@@ -24,5 +24,5 @@ pessoa.animalEstimacao.push({
 });
 
 for (let campo in pessoa) {
-    console.log()
+    console.log(pessoa[campo])
 }
