@@ -40,3 +40,9 @@ const numbers = [1, 2, 3];
 const numbersCopy = numbers;
 console.log(numbers === numbersCopy); // true
 console.log(numbers === cloneArray(numbers)); // false
+
+
+const cloneObject = (element) => {
+    if (typeCheck(element) !== 'object') return element 
+    // implementação
+}
