@@ -1,6 +1,6 @@
 const clientes = require("./clientes.json")
 
-function ordenar(lista, propriedade) {
+function ordenar(lista, propriedade, ordem = "crescente") {
     const resultado =  lista.sort((a, b) => {
         if (a[propriedade] < b[propriedade]) {
             return -1;
@@ -10,6 +10,10 @@ function ordenar(lista, propriedade) {
         }
         return 0;
     });  
+
+    if ( ordem !== "crescente") {
+        resultado.reverse();
+    }
 
     return resultado;
 }
