@@ -61,3 +61,8 @@ const user = {name: "caique", address: {country: "Brasil", state: "SP"} };
 const clonedUser = user;
 console.log(user.address === clonedUser.address) // true
 console.log(user.address === cloneObject(user).address) // false
+
+clonedUser.age = 19;
+
+console.log(user);
+console.log(clonedUser);
