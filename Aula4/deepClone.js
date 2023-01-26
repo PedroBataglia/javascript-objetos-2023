@@ -43,3 +43,9 @@ const deepClone = (element) => {
 
 console.log(deepClone(person).hobbies === person.hobbies) // false
 console.log(deepClone(person) === person) // false
+
+const newPerson = deepClone(person);
+newPerson.hobbies.push('gym');
+
+console.log(person);
+console.log(newPerson);
