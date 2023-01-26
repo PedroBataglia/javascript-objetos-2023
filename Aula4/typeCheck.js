@@ -44,5 +44,20 @@ console.log(numbers === cloneArray(numbers)); // false
 
 const cloneObject = (element) => {
     if (typeCheck(element) !== 'object') return element 
-    // implementação
+    return Object.fromEntries(
+        Object.keys(element).map(key =>
+            [key, cloneObject(element[key])]
+        )
+    );
 }
+
+// const objetoDesejo = cloneObject(['nome', 'Pedro', 'idade', 19, 'valor', 15])
+// console.log(objetoDesejo)
+
+console.log(Object.fromEntries([['nome', 'caique'], ['age', 27]]))
+// { nome: 'caique', age: 27 }
+
+const user = {name: "caique", address: {country: "Brasil", state: "SP"} };
+const clonedUser = user;
+console.log(user.address === clonedUser.address) // true
+console.log(user.address === cloneObject(user).address) // false
