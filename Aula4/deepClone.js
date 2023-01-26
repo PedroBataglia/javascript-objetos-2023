@@ -47,5 +47,7 @@ console.log(deepClone(person) === person) // false
 const newPerson = deepClone(person);
 newPerson.hobbies.push('gym');
 
+person.email = "pierreBalu@zmail.com"
+
 console.log(person);
 console.log(newPerson);
