@@ -17,7 +17,10 @@ console.log(`O aluno tem média ${media} e ele está ${aprovado}`);
 
 let somaNotas = 0;
 
+notas.push(7);
+
 for (let i = 0; i < notas.length; i++) {
+    console.log(`Nota nº${i+1} é ${notas[i]}`)
     somaNotas += notas[i]/notas.length;
 }
 
