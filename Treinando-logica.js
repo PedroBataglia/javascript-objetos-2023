@@ -25,3 +25,12 @@ for (let i = 0; i < notas.length; i++) {
 }
 
 console.log(somaNotas)
+
+//         valor//qauntidade de posições//novo valor
+//notas.splice(5, 1, 8);
+
+let posicao = notas.indexOf(5);
+
+notas.splice(posicao, 1, 8);
+
+console.log(notas);
