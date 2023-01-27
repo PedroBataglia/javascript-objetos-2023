@@ -1,0 +1,26 @@
+[
+    {
+        "Nome": "O Nome do Vento",
+        "Autor": "Pratick Wajksdf",
+        "Ano": 2011,
+        "Nota": 10
+    },
+    {
+        "Nome": "Percy Jackson",
+        "Autor": "Rick Riordan",
+        "Ano": 2014,
+        "Nota": 6
+    },
+    {
+        "Nome": "Um tom mais escuro de Magia",
+        "Autor": "VS Webber",
+        "Ano": 2019,
+        "Nota": 8
+    },
+    {
+        "Nome": "O guia do Mochileiro das Galaxias",
+        "Autor": "Jaff Tauz",
+        "Ano": 2014,
+        "Nota": 10
+    }
+]
