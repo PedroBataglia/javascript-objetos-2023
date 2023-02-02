@@ -1,12 +1,12 @@
 [
     {
-        "Nome": "O Nome do Vento",
-        "Autor": "Pratick Wajksdf",
+        "Nome": ["As Crônicas do Matador do Rei", "O Nome do Vento"],
+        "Autor": "Patrick Rothfuss",
         "Ano": "2011",
         "Nota": "9"
     },
     {
-        "Nome": "Percy Jackson",
+        "Nome": ["Percy Jackson", "O Ladrão de Raios"],
         "Autor": "Rick Riordan",
         "Ano": "2014",
         "Nota": "6"
@@ -18,6 +18,12 @@
         "Nota": "8"
     },
     {
+        "Nome": ["Percy Jackson","Mar de Monstros"],
+        "Autor": "Rick Riordan",
+        "Ano": "2014",
+        "Nota": "7"
+    },
+    {
         "Nome": "O guia do Mochileiro das Galaxias",
         "Autor": "Jaff Tauz",
         "Ano": "2014",
@@ -25,8 +31,20 @@
     },
     {
         "Nome": "Hobbit",
-        "Autor": "JJK Talking",
+        "Autor": "J.R.R. Tolkien",
         "Ano": "1938",
         "Nota": "10"
+    },
+    {
+        "Nome": ["Senhor dos Aneis", "A sociedade do Anel"],
+        "Autor": "J.R.R. Tolkien",
+        "Ano": "1954",
+        "Nota": "9"
+    },
+    {
+        "Nome": ["As Crônicas do Matador do Rei", "A Melodia do Sábio"],
+        "Autor":"Patrick Rothfuss",
+        "Ano": "2012",
+        "Nota": "?"
     }
 ]

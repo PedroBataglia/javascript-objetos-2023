@@ -1,10 +1,10 @@
 const livros = require("./livros.json");
 
-function filtrandoPorAutor(livros) {
-    return livros.filter((livro) => livro.Autor == "JJK Talking");
+function filtrandoPorAutor(livros, autor) {
+    return livros.filter((livro) => livro.Autor == autor);
 }
 
 
-const listaDETolking = filtrandoPorAutor(livros);
+const listaDETolking = filtrandoPorAutor(livros, "Patrick Rothfuss");
 
 console.log(listaDETolking);
