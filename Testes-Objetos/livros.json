@@ -8,7 +8,7 @@
     {
         "Nome": ["Percy Jackson", "O Ladrão de Raios"],
         "Autor": "Rick Riordan",
-        "Ano": "2011",
+        "Ano": "2010",
         "Nota": "6"
     },
     {
@@ -20,7 +20,7 @@
     {
         "Nome": ["Percy Jackson","Mar de Monstros"],
         "Autor": "Rick Riordan",
-        "Ano": "2014",
+        "Ano": "2012",
         "Nota": "7"
     },
     {
@@ -52,5 +52,17 @@
         "Autor": "V.E. Schwab",
         "Ano": "2019",
         "Nota": "9"
+    },
+    {
+        "Nome": ["Percy Jackson", "A maldição do Titã"],
+        "Autor": "Rick Riordan",
+        "Ano": "2013",
+        "Nota": "7"
+    },
+    {
+        "Nome": ["Senhor dos Aneis", "As duas Torres"],
+        "Autor": "J.R.R. Tolkien",
+        "ANo": "1958",
+        "Nota": "10"
     }
 ]

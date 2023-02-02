@@ -27,5 +27,5 @@ const listaDeTitulos = livrosObjetos(livros);
 //console.log(listaDeTitulos);
 
 for (let i = 0; i < listaDeTitulos.length; i++) {
-    console.log(listaDeTitulos[i]["Nome"][1])
+    console.log(`Da saga => ${listaDeTitulos[i]["Nome"][0]}:   ${listaDeTitulos[i]["Nome"][1]}`)
 }
