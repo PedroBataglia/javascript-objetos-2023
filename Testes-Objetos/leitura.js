@@ -4,22 +4,11 @@ const livros = require("./livros.json");
 //      console.log(livros[i]);
 //  };
 
-function ordenar(lista, propriedade, ordem = "crescente") {
-    const resultado = lista.sort((a, b) => {
-        if (a[propriedade] > b[propriedade]) {
-            return 1;
-        };
-        if (a[propriedade] < b[propriedade]) {
-            return -1;
-        };
-        return 0;
-    });
-    if(ordem !== "crescente") {
-        resultado.reverse();
+function livroAutor(lista) {
+    for (let livro in lista) {
+        console.log(...lista[livro]["Nome"]);
+        console.log(lista[livro]["Autor"]);
     }
-    return resultado;
-};
+}
 
-const listaOrdenada = ordenar(livros, "ano", "reversa");
-
-console.log(listaOrdenada);
+livroAutor(livros);
