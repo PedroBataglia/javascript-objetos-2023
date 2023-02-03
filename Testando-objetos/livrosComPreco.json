@@ -1,0 +1,86 @@
+[
+    {
+        "Nome": ["As Crônicas do Matador do Rei", "O Nome do Vento"],
+        "Autor": "Patrick Rothfuss",
+        "Ano": "2010",
+        "Nota": "9",
+        "Preco": 64
+    },
+    {
+        "Nome": ["Percy Jackson", "O Ladrão de Raios"],
+        "Autor": "Rick Riordan",
+        "Ano": "2005",
+        "Nota": "6",
+        "Preco": 49
+    },
+    {
+        "Nome": ["Tons de Magia","Um tom mais escuro de Magia"],
+        "Autor": "V.E. Schwab",
+        "Ano": "2015",
+        "Nota": "8",
+        "Preco": 50
+    },
+    {
+        "Nome": ["Percy Jackson","Mar de Monstros"],
+        "Autor": "Rick Riordan",
+        "Ano": "2006",
+        "Nota": "7",
+        "Preco": 44
+    },
+    {
+        "Nome": "O guia do Mochileiro das Galaxias",
+        "Autor": "Douglas Adams",
+        "Ano": "1979",
+        "Nota": "10",
+        "Preco": 70
+    },
+    {
+        "Nome": "Hobbit",
+        "Autor": "J.R.R. Tolkien",
+        "Ano": "1938",
+        "Nota": "10",
+        "Preco": 30
+    },
+    {
+        "Nome": ["Senhor dos Aneis", "A sociedade do Anel"],
+        "Autor": "J.R.R. Tolkien",
+        "Ano": "1954",
+        "Nota": "9",
+        "Preco": 49
+    },
+    {
+        "Nome": ["As Crônicas do Matador do Rei", "O Temor do Sábio"],
+        "Autor":"Patrick Rothfuss",
+        "Ano": "2011",
+        "Nota": "?",
+        "Preco": 70
+    }, 
+    {
+        "Nome": ["Tons de Magia", "Um encontro de sombras"],
+        "Autor": "V.E. Schwab",
+        "Ano": "2016",
+        "Nota": "9",
+        "Preco": 43
+    },
+    {
+        "Nome": ["Percy Jackson", "A maldição do Titã"],
+        "Autor": "Rick Riordan",
+        "Ano": "2007",
+        "Nota": "7",
+        "Preco": 32
+    },
+    {
+        "Nome": ["Senhor dos Aneis", "As duas Torres"],
+        "Autor": "J.R.R. Tolkien",
+        "Ano": "1958",
+        "Nota": "10",
+        "Preco": 48
+    },
+    {
+        "Nome": ["Tons de Magia", "Uma conjuração de Luz"],
+        "Autor": "V.E. Schwab",
+        "Ano": "2017",
+        "Nota": "9",
+        "Preco": 50
+    }
+]
