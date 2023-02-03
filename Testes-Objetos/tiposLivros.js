@@ -11,14 +11,8 @@ let armazenar = "";
 //  }
 
 function livrosObjetos (lista) {
-    const livrosComDoisTitulos = lista.filter((livro) => {
-        if (typeof(livro.Nome) === "object") {
-            return livro;
-        } else {
-            
-        }
-    });
-    return livrosComDoisTitulos;
+    return lista.filter((livro) => (typeof(livro.Nome) === "object"))
+
 }
 
 const listaDeTitulos = livrosObjetos(livros);
