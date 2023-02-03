@@ -6,7 +6,7 @@ function filtrandoLivros(lista, filtro, parametro) {
         if (livro[parametro] == filtro) {
             return livro;
         } else {
-  
+            
         }
     })
     return listaFiltrada
