@@ -12,4 +12,17 @@ for (aluno in alunos) {
     media(alunos, aluno);
 }
 
+function situacao(aluno, media) {
+    if (aluno["media"] >= media) {
+        aluno.situacao = "aprovado";
+    } else {
+        aluno.situacao = "reprovado"
+    };
+}
+
+for (aluno in alunos) {
+    situacao(alunos[aluno], 8);
+}
+
+
 console.log(alunos);
