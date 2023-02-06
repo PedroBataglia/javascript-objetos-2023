@@ -3,24 +3,24 @@
         "nome": "Pedro Henrique",
         "idade": "16",
         "notas": [10, 9, 6, 7],
-        "situação": ""
+        "situacao": ""
     },
     {
         "nome": "João Miguel",
         "idade": "16",
         "notas": [8, 9, 9, 8],
-        "situação": ""
+        "situacao": ""
     },
     {
         "nome": "Paulo Guilerme",
         "idade": "15",
         "notas": [5, 8, 6, 10],
-        "situação": ""
+        "situacao": ""
     },
     {
         "nome": "Maria Vitória",
         "idade": "17",
         "notas": [10, 7, 5, 7],
-        "situação": ""
+        "situacao": ""
     }
 ]
